@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
 
-// const MOTIF_PROJECT_URL = 'https://agreeable-rhinoceros-lime.motif.dev'
 const MOTIF_PROJECT_URL = 'https://motif-rewrites-docs.vercel.app'
 // const MOTIF_PROJECT_URL = 'http://localhost:3003'
 // const MOTIF_PROJECT_URL = 'http://protestant-tuna-purple.localhost:3001'
