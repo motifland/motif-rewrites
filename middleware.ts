@@ -6,7 +6,7 @@ const MOTIF_PROJECT_URL = 'https://motif-rewrites-docs.vercel.app'
 export default async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl
 
-  if (pathname.startsWith('/docs')) {
+  if (pathname.startsWith('/docs-')) {
     // Rewrite /docs... to external.
     return NextResponse.rewrite(MOTIF_PROJECT_URL + pathname)
   } else if (pathname.startsWith('/__motif/assets/_next/')) {
