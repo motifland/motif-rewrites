@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server'
 
 // const MOTIF_PROJECT_URL = 'https://motif-rewrites-docs.vercel.app'
 // const MOTIF_PROJECT_URL = 'http://localhost:3001'
-const MOTIF_PROJECT_URL = 'https://agreeable-rhinoceros-lime-preview.motif.dev/'
+const MOTIF_PROJECT_URL = 'https://agreeable-rhinoceros-lime-preview.motif.dev'
 
 export default async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl
